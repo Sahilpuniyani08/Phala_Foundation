@@ -1,0 +1,48 @@
+.nav{
+    background: linear-gradient(90deg, rgba(254, 250, 246, 0.40) 0%, rgba(254, 250, 246, 0.40) 100%);
+    backdrop-filter: blur(10px);
+}
+
+.button{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: radial-gradient(55.45% 107.32% at 50% 50%, #765348 35.36%, #65473F 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17.311px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.button:hover{
+    background: radial-gradient(55.45% 107.32% at 50% 50%, #65473F 35.36%, #765348 100%);
+}
+
+.info{
+    
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.head{
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
