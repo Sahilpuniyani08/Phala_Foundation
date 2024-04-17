@@ -46,3 +46,31 @@
     font-weight: 600;
     line-height: normal;
 }
+
+@media only screen and (max-width: 500px) {
+    .button {
+        display: none;
+    }
+}
+
+.drawer{
+    display: none;
+    align-items: center;
+    padding-right: 2px;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    border-radius: 0.5rem;
+
+}
+
+.drawer:hover{
+    background-color: #450a0a;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .drawer {
+        display: flex;
+    }
+}
